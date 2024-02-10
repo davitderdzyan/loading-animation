@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Kavoon";
+  src: url("Kavoon-Regular.ttf") format("truetype");
+}
+
+/* Apply the font to elements */
+body {
+  font-family: "Kavoon", sans-serif;
+  /* text-align: center;
+  justify-content: center;
+  display: flex;
+  justify-items: center; */
+}
+
+.text-container {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  font-size: 120px;
+  overflow: hidden; /* Hide overflowing content */
+  width: 0;
+}
+
+.text {
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+  border: 15px solid black;
+  height: 120px;
+  width: 120px;
+  left: 20%;
+  top: 40%;
+}
+
+.check {
+  position: absolute;
+  scale: 0;
+  width: 100px;
+  height: 100px;
+}
